@@ -147,10 +147,10 @@ router.post('/postComment', (req, res, next) => {
 
 --------------------------------------------------------------------------------
 
-### Festival Card
+### Festival Detail
 ![alt text](https://github.com/Kaplaugher/AtlantaVibes/blob/master/screenshots/festivaldetail.png "festivaldetail.png")
 
-### Festival Detail
+### Festival Card
 ![alt text](https://github.com/Kaplaugher/AtlantaVibes/blob/master/screenshots/festivaldetail2.png "festivaldetail2.png")
 
 ### Rating Modal
