@@ -1,8 +1,8 @@
----
-'AtlantaVibes is a Full-Stack application that aggregates data from the top ten music festivals into one easy to use website. AtlantaVibes lets users view, rate, comment and purchase tickets for their favorite festivals in Atlanta.'
----
 
 # AtlantaVibes - The Best Atlanta Music Festival Resource
+---
+AtlantaVibes is a Full-Stack application that aggregates data from the top ten music festivals into one easy to use website. AtlantaVibes lets users view, rate, comment and purchase tickets for their favorite festivals in Atlanta.
+---
 
 ## About:
 
@@ -23,17 +23,11 @@
 
 --------------------------------------------------------------------------------
 
-1. Using the Google Maps API with the NPM Package "React-Google-Maps" to successfully get a map rendered onto the screen.
-2. Manipulating the Google Maps API to accomplish things like:
+1. Getting the current total average rating after user submission
+  - Solution: Find the sum of all ratings with the desired festival id from database. Then we added the submitted rating to the total. After, we used an update query to change the festival rating in the database to match the new average.
 
-  1. Changing visibility of markers based on zoom level.
-  2. Targeting markers with JavaScript that only appear based on current render().
-
-    1. Resetting the map zoom after an event.
-    2. Using info windows to perform actions on the map.
-
-3. Using React-Router to make our NavBar a have single page links.
-4. Styling the map while using React and React-Google-Maps.
+2. Getting the comments to automatically render on submit
+  - Solution: We set state to all comments associated with the target festival from the database and rendered the page so that all the comments would appear. When the user submits a new comment, we post the comment in the database and re-render with the new comment.
 
 ## Authors
 
@@ -153,6 +147,12 @@ router.post('/postComment', (req, res, next) => {
 
 --------------------------------------------------------------------------------
 
-Homescreen when you first start out ![alt text](https://github.com/optipwr/Geography-Game/blob/master/screenshots/Homescreen.png "Homescreen.png")
+Festival Card ![alt text](https://github.com/Kaplaugher/AtlantaVibes/blob/master/screenshots/festivaldetail.png "festivaldetail.png")
 
-Info window when marker is found ![alt text](https://github.com/optipwr/Geography-Game/blob/master/screenshots/InfoWindow.png "InfoWindow.png")
+Festival Detail ![alt text](https://github.com/Kaplaugher/AtlantaVibes/blob/master/screenshots/festivaldetail2.png "festivaldetail2.png")
+
+Rating Modal ![alt text](https://github.com/Kaplaugher/AtlantaVibes/blob/master/screenshots/ratingmodal.png "ratingmodal.png")
+
+Register Modal ![alt text](https://github.com/Kaplaugher/AtlantaVibes/blob/master/screenshots/registermodal.png "registermodal.png")
+
+Homescreen ![alt text](https://github.com/Kaplaugher/AtlantaVibes/blob/master/screenshots/homepage.png "homepage.png")
