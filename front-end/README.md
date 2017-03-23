@@ -147,12 +147,17 @@ router.post('/postComment', (req, res, next) => {
 
 --------------------------------------------------------------------------------
 
-Festival Card ![alt text](https://github.com/Kaplaugher/AtlantaVibes/blob/master/screenshots/festivaldetail.png "festivaldetail.png")
+### Festival Card
+![alt text](https://github.com/Kaplaugher/AtlantaVibes/blob/master/screenshots/festivaldetail.png "festivaldetail.png")
 
-Festival Detail ![alt text](https://github.com/Kaplaugher/AtlantaVibes/blob/master/screenshots/festivaldetail2.png "festivaldetail2.png")
+### Festival Detail
+![alt text](https://github.com/Kaplaugher/AtlantaVibes/blob/master/screenshots/festivaldetail2.png "festivaldetail2.png")
 
-Rating Modal ![alt text](https://github.com/Kaplaugher/AtlantaVibes/blob/master/screenshots/ratingmodal.png "ratingmodal.png")
+### Rating Modal
+![alt text](https://github.com/Kaplaugher/AtlantaVibes/blob/master/screenshots/ratingmodal.png "ratingmodal.png")
 
-Register Modal ![alt text](https://github.com/Kaplaugher/AtlantaVibes/blob/master/screenshots/registermodal.png "registermodal.png")
+### Register Modal
+![alt text](https://github.com/Kaplaugher/AtlantaVibes/blob/master/screenshots/registermodal.png "registermodal.png")
 
-Homescreen ![alt text](https://github.com/Kaplaugher/AtlantaVibes/blob/master/screenshots/homepage.png "homepage.png")
+### Homescreen
+![alt text](https://github.com/Kaplaugher/AtlantaVibes/blob/master/screenshots/homepage.png "homepage.png")
