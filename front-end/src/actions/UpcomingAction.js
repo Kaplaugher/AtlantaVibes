@@ -6,7 +6,7 @@ var Upcoming = (upcomingData)=>{
     var thePromise =
         $.ajax({
             method: "GET",
-            url: "http://localhost:3000/festivals/upcoming",
+            url: "http://kapcode.me:3030/festivals/upcoming",
             data: upcomingData
         });
     return{

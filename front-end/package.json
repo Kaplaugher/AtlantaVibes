@@ -1,6 +1,7 @@
 {
   "name": "front-end",
   "version": "0.1.0",
+  "homepage": "http://kapcode.me/AtlantaVibes",
   "private": true,
   "devDependencies": {
     "react-scripts": "0.9.3"

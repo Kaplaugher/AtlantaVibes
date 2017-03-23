@@ -54,7 +54,7 @@ class Register extends Component {
         var avatarImage = event.target.elements.uploadAvatar.files[0];
         console.log(avatarImage);
         if (avatarImage === undefined) {
-            avatarImage = `http://localhost:3000/images/avatars/default-user-image.jpg`;
+            avatarImage = `http://kapcode.me:3030/images/avatars/default-user-image.jpg`;
         }
 
         if (password !== repeatPassword)  {
